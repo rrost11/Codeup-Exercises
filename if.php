@@ -31,7 +31,7 @@ if ($b == $c) {
 
 if ($b === $c) {
     // TODO: Replace the blanks with the correct description
-    echo "$b is is not identical $c\n";
+    echo "$b is identical $c\n";
 }
 
 // TODO: Replace `true` with the correct comparison
