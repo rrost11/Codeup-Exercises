@@ -12,7 +12,7 @@ $z = 10;
 // If $x < $y < $z then echo "{$x} < {$y} < {$z}\n";
 
 
-if ($x < $y || $y < $z) {
+if (($x < $y) && ($y < $z)) {
     
     echo "{$x} < {$y} < {$z}\n";
 }
@@ -23,7 +23,7 @@ if ($x < $y || $y < $z) {
 // If 0 is less than $x OR $x is less than 10
 // then echo the result as a sentence "0 is less than {$x} OR {$x} is less than 10".
 
-if (0 < $x || $x < 10) {
+if ((0 < $x) || ($x < 10)) {
     
     echo "0 is less than {$x} OR {$x} is less than 10";
 }
@@ -33,12 +33,12 @@ if (0 < $x || $x < 10) {
 // TODO:
 // repeat the if statement for $y and $z.
 
-if (0 < $y || $y < $10) {
+if ((0 < $y) || ($y < 10)) {
     
     echo "0 is less than {$y} OR {$y} is less than 10";
 }
 
-if (0 < $z || $z < $10) {
+if ((0 < $z) || ($z < 10)) {
     
     echo "0 is less than {$z} OR {$z} is less than 10";
 }
@@ -48,7 +48,7 @@ if (0 < $z || $z < $10) {
 // If 0 is less than $x AND $x is less than 10
 // then echo the result as a sentence "0 is less than {$x} AND {$x} is less than 10".
 
-if (0 < $x && $x < $10) {
+if ((0 < $x) && ($x < 10)) {
     
     echo "0 is less than {$x} AND {$x} is less than 10";
 }
@@ -57,12 +57,12 @@ if (0 < $x && $x < $10) {
 // TODO:
 // repeat the if statement for $y and $z.
 
-if (0 < $y && $y < $10) {
+if ((0 < $y) && ($y < 10)) {
     
     echo "0 is less than {$y} AND {$y} is less than 10";
 }
 
-if (0 < $z && $z < $10) {
+if ((0 < $z) && ($z < 10)) {
     
     echo "0 is less than {$z} AND {$z} is less than 10";
 }
