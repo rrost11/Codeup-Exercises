@@ -6,40 +6,40 @@ $c = '10';
 
 if ($a < $b) {
     // TODO: Replace the blanks with the correct description
-    echo "$a is less than $b\n";
+    echo "$a is less than $b\n" . PHP_EOL;
 }
 
 if ($b > $a) {
     // TODO: Replace the blanks with the correct description
-    echo "$b is greater than $a\n";
+    echo "$b is greater than $a\n" . PHP_EOL;
 }
 
 if ($b >= $c) {
     // TODO: Replace the blanks with the correct description
-    echo "$b is greater than or equal to $c\n";
+    echo "$b is greater than or equal to $c\n" . PHP_EOL;
 }
 
 if ($b <= $c) {
     // TODO: Replace the blanks with the correct description
-    echo "$b is less than or equal to $c\n";
+    echo "$b is less than or equal to $c\n" . PHP_EOL;
 }
 
 if ($b == $c) {
     // TODO: Replace the blanks with the correct description
-    echo "$b is equal to $c\n";
+    echo "$b is equal to $c\n" . PHP_EOL;
 }
 
 if ($b === $c) {
     // TODO: Replace the blanks with the correct description
-    echo "$b is identical $c\n";
+    echo "$b is identical $c\n" . PHP_EOL;
 }
 
 // TODO: Replace `true` with the correct comparison
 if ($b != $c) {
-    echo "$b is not equal to $c\n";
+    echo "$b is not equal to $c\n" . PHP_EOL;
 }
 
 // TODO: Replace `true` with the correct comparison
 if ($b !== $c) {
-    echo "$b is not identical to $c\n";
+    echo "$b is not identical to $c\n" . PHP_EOL;
 }
