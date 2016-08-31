@@ -27,23 +27,30 @@ $things = array('Sgt. Pepper', "11", null, array(1,2,3), 3.14, "12 + 7", false, 
 
 
 
-
-
 // Construct a loop that iterates through each value and outputs only values with a type that is scalar.
 
 
-foreach ($things as $item) {
-	if (is_scalar($item)) {
-		echo "{$item} is " . gettype($item) .".\n";
-	} else {
-		echo "{$item} is not scalar.\n";
-	}
-}
+// foreach ($things as $item) {
+// 	if (is_scalar($item)) {
+// 		echo "{$item} is " . gettype($item) .".\n";
+// 	} else {
+// 		echo "{$item} is not scalar.\n";
+// 	}
+// }
 
 
 
+// Create a loop that will echo out every value, including those nested in arrays. Output should look like this.
 
 
-
+foreach ($things as $item) {       
+        if (is_array($item)) {
+    			print_r($item);
+    	}	
+        	else {
+        		echo "{$item}\n";	
+    		}
+    	}
+ 
 
 
