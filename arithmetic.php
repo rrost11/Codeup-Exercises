@@ -7,17 +7,24 @@ function add($a, $b)
 
 function subtract($a, $b)
 {
-    // Add code here
+    return $a - $b;
 }
 
 function multiply($a, $b)
 {
-    // Add code here
+    return $a * $b;
 }
 
 function divide($a, $b)
 {
-    // Add code here
+    return $a / $b;
 }
 
-// Add code to test your functions here
+echo add(10, 5) . PHP_EOL;
+
+echo subtract(15, 5) . PHP_EOL;
+
+echo multiply(3, 10) . PHP_EOL;
+
+echo divide(21, 7) . PHP_EOL;
+
