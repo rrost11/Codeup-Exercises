@@ -28,3 +28,12 @@ echo multiply(3, 10) . PHP_EOL;
 
 echo divide(21, 7) . PHP_EOL;
 
+
+
+function modulus($a, $b)
+{
+	return $a % $b;
+}
+
+
+echo modulus(100, 22) . PHP_EOL;
