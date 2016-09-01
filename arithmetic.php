@@ -6,7 +6,7 @@ function add($a, $b = null) {
 	if (is_numeric($a) && is_numeric($b)) {
 		return $a + $b . PHP_EOL;
 	} else {
-		return "ERROR: Both arguments must be numbers\n" . PHP_EOL;
+		return "ERROR: Both arguments must be numbers\n.  Current arguments are " . $a . " and " . $b . PHP_EOL;
 	}
 }
 
@@ -16,7 +16,7 @@ function subtract($a, $b = null) {
 		return $a - $b . PHP_EOL;
 	} else {
 		
-		return "ERROR: Both arguments must be numbers\n" . PHP_EOL;
+		return "ERROR: Both arguments must be numbers\n.  Current arguments are " . $a . " and " . $b . PHP_EOL;
 	}
 }
 
@@ -25,7 +25,7 @@ function multiply($a, $b = null) {
 		return $a * $b . PHP_EOL;
 	} else {
 		
-		return "ERROR: Both arguments must be numbers\n" . PHP_EOL;
+		return "ERROR: Both arguments must be numbers\n.  Current arguments are " . $a . " and " . $b . PHP_EOL;
 	}
 }
 
@@ -34,7 +34,7 @@ function divide($a, $b = null) {
 		return $a / $b . PHP_EOL;
 	} else {
 		
-		return "ERROR: Both arguments must be numbers\n and you can not divide by 0" . PHP_EOL;
+		return "ERROR: Both arguments must be numbers\n and you can not divide by 0.  Current arguments are " . $a . " and " . $b . PHP_EOL;
 	}
 }
 
@@ -43,7 +43,7 @@ function modulus($a, $b = null) {
 		return $a % $b . PHP_EOL;
 	} else {
 		
-		return "ERROR: Both arguments must be numbers\n" . PHP_EOL;
+		return "ERROR: Both arguments must be numbers\n.  Current arguments are " . $a . " and " . $b . PHP_EOL;
 	}
 }
 
