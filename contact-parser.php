@@ -17,8 +17,7 @@ function parseContacts($filename){
 
 
 	foreach($contents as $key => $profileInformation){
-		if (empty($profileInformation))
-		{
+		if (empty($profileInformation)){
 			continue;
 		}
 
@@ -32,10 +31,11 @@ function parseContacts($filename){
 
 // function that formats a phone number
 
-function phoneNumberDash($phoneNumberString)
-{
+function phoneNumberDash($phoneNumberString){
+	
 	$phoneNumberString = chunk_split($phoneNumberString, 3, "-");
 	$phoneNumberString = substr_replace($phoneNumberString, substr($phoneNumberString, -2, 1) , -3);
+	
 	return $phoneNumberString;
 };
 
